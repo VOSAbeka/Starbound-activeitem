@@ -241,40 +241,10 @@
             "behaviorUpdateDelta": 1,
             "initialScriptDelta": 1,
             "movementSettings": {
-              "collisionEnabled": false,
+              "collisionEnabled": true,
               "collisionPoly": [
-                [
-                  0.26,
-                  0.625
-                ],
-                [
-                  0.625,
-                  0.26
-                ],
-                [
-                  0.625,
-                  -0.26
-                ],
-                [
-                  0.26,
-                  -0.625
-                ],
-                [
-                  -0.26,
-                  -0.625
-                ],
-                [
-                  -0.625,
-                  -0.26
-                ],
-                [
-                  -0.625,
-                  0.26
-                ],
-                [
-                  -0.26,
-                  0.625
-                ]
+                [0.26,0.625],[0.625,0.26],[0.625,-0.26],[0.26,-0.625],
+                [-0.26,-0.625],[-0.625,-0.26],[-0.625,0.26],[-0.26,0.625]
               ],
               "mass": 1.0,
               "walkSpeed": 0,
@@ -603,7 +573,7 @@
                   "timeToLive": 3.0,
                   "damageType": "Damage",
                   "knockback": 2,
-                  "piercing": true,
+                  "piercing": false,
                   "movementSettings": {
                      "collisionEnabled": false
                   }
