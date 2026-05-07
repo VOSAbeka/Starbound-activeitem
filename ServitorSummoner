@@ -1,0 +1,3297 @@
+/spawnitem electricrailgun 1 '{
+  "level": 10,
+	"seed": 2,
+	"price": 6600000,
+  "rarity" : "essential",
+  "description": "Summons orbiting servitors",
+  "shortdescription" : "^orange;ServitorSummoner ^green;^reset;^green;^reset;",
+  "tooltipKind" : "base",
+  "category" : "^green;Summoner",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","spawner","special"],
+  "elementalType" : "fire",
+  "upgradeParameters" : {},
+
+
+
+
+  "animationParts": {
+    "butt": "",
+    "middle": "/assetMissing.png?setcolor=fff?replace;fff0=fff?crop;0;0;2;2?blendmult=/items/active/weapons/protectorate/aegisaltpistol/beamend.png;0;0?replace;a355c0a5=00010000;a355c07b=0f010000;ffffffa5=00010b00;ffffff7b=0f010b00?scale=16;12?crop;1;1;17;13?replace;00010000=424242;00010100=b7b6b6;00010900=878787;00010a00=b7b6b6;01010000=424242;01010100=878787;01010200=b7b6b6;01010800=222;01010900=222;01010a00=222;02010000=424242;02010100=878787;02010200=b7b6b6;02010800=222;02010900=424242;02010a00=424242;02010b00=656565;03010000=424242;03010100=878787;03010200=b7b6b6;03010300=424242;03010800=222;03010900=424242;03010a00=222;03010b00=656565;04010000=424242;04010100=878787;04010200=b7b6b6;04010300=222;04010400=424242;04010500=424242;04010800=222;04010900=424242;04010a00=424242;04010b00=656565;05010000=424242;05010100=878787;05010200=b7b6b6;05010300=222;05010400=222;05010500=222;05010600=424242;05010700=424242;05010800=222;05010900=424242;05010a00=222;05010b00=656565;06010000=424242;06010100=878787;06010200=b7b6b6;06010600=222;06010700=222;06010800=222;06010900=424242;06010a00=424242;06010b00=656565;07010000=424242;07010100=777676;07010200=b7b6b6;07010800=222;07010900=222;07010a00=222;08010000=424242;08010100=3b3b3b;08010200=3b3b3b;08010800=424242;08010900=dad4d0;08010a00=b7b6b6;09010000=424242;09010100=878787;09010200=b7b6b6;09010300=3b3b3b;09010700=777676;09010800=424242;09010900=dad4d0;09010a00=b7b6b6;0a010000=424242;0a010100=878787;0a010200=878787;0a010300=b7b6b6;0a010400=444;0a010500=222;0a010600=222;0a010700=424242;0a010800=777676;0a010900=dad4d0;0a010a00=b7b6b6;0b010000=424242;0b010100=777676;0b010200=878787;0b010300=b7b6b6;0b010400=444;0b010600=222;0b010700=424242;0b010800=878787;0b010900=dad4d0;0b010a00=b7b6b6;0c010100=424242;0c010200=878787;0c010300=b7b6b6;0c010400=444;0c010600=222;0c010700=424242;0c010800=dad4d0;0c010900=b7b6b6;0d010100=424242;0d010200=878787;0d010300=b7b6b6;0d010400=444;0d010600=222;0d010700=424242;0d010800=dad4d0;0d010900=b7b6b6;0e010100=424242;0e010200=777676;0e010300=b7b6b6;0e010400=444;0e010600=222;0e010700=424242;0e010800=dad4d0;0e010900=b7b6b6;0f010200=424242;0f010300=606060;0f010700=424242;0f010800=b7b6b6",
+    "middlefullbright": "/assetMissing.png?setcolor=fff?replace;fff0=fff?crop;0;0;2;2?blendmult=/items/active/weapons/protectorate/aegisaltpistol/beamend.png;0;0?replace;a355c0a5=00010000;a355c07b=0f010000;ffffffa5=00010b00;ffffff7b=0f010b00?scale=16;12?crop;1;1;17;13?replace;03010a00=84ff00;05010a00=c7ff2f;0b010500=84ff00;0c010500=c7ff2f;0d010500=c7ff2f;0e010500=c7ff2f",
+    "barrel": "",
+    "muzzleFlash": ""
+  },
+  "baseOffset": [
+    0.9,
+    0.35
+  ],
+  "muzzleOffset": [
+    0.9,
+    0.125
+  ],
+  "inventoryIcon": "/assetMissing.png?setcolor=fff?replace;fff0=fff?crop;0;0;2;2?blendmult=/items/active/weapons/protectorate/aegisaltpistol/beamend.png;0;0?replace;a355c0a5=00010000;a355c07b=0f010000;ffffffa5=00010b00;ffffff7b=0f010b00?scale=16;12?crop;1;1;17;13?replace;00010000=424242;00010100=b7b6b6;00010900=878787;00010a00=b7b6b6;01010000=424242;01010100=878787;01010200=b7b6b6;01010800=222;01010900=222;01010a00=222;02010000=424242;02010100=878787;02010200=b7b6b6;02010800=222;02010900=424242;02010a00=424242;02010b00=656565;03010000=424242;03010100=878787;03010200=b7b6b6;03010300=424242;03010800=222;03010900=424242;03010a00=84ff00;03010b00=656565;04010000=424242;04010100=878787;04010200=b7b6b6;04010300=222;04010400=424242;04010500=424242;04010800=222;04010900=424242;04010a00=424242;04010b00=656565;05010000=424242;05010100=878787;05010200=b7b6b6;05010300=222;05010400=222;05010500=222;05010600=424242;05010700=424242;05010800=222;05010900=424242;05010a00=c7ff2f;05010b00=656565;06010000=424242;06010100=878787;06010200=b7b6b6;06010600=222;06010700=222;06010800=222;06010900=424242;06010a00=424242;06010b00=656565;07010000=424242;07010100=777676;07010200=b7b6b6;07010800=222;07010900=222;07010a00=222;08010000=424242;08010100=3b3b3b;08010200=3b3b3b;08010800=424242;08010900=dad4d0;08010a00=b7b6b6;09010000=424242;09010100=878787;09010200=b7b6b6;09010300=3b3b3b;09010700=777676;09010800=424242;09010900=dad4d0;09010a00=b7b6b6;0a010000=424242;0a010100=878787;0a010200=878787;0a010300=b7b6b6;0a010400=444;0a010500=222;0a010600=222;0a010700=424242;0a010800=777676;0a010900=dad4d0;0a010a00=b7b6b6;0b010000=424242;0b010100=777676;0b010200=878787;0b010300=b7b6b6;0b010400=444;0b010500=84ff00;0b010600=222;0b010700=424242;0b010800=878787;0b010900=dad4d0;0b010a00=b7b6b6;0c010100=424242;0c010200=878787;0c010300=b7b6b6;0c010400=444;0c010500=c7ff2f;0c010600=222;0c010700=424242;0c010800=dad4d0;0c010900=b7b6b6;0d010100=424242;0d010200=878787;0d010300=b7b6b6;0d010400=444;0d010500=c7ff2f;0d010600=222;0d010700=424242;0d010800=dad4d0;0d010900=b7b6b6;0e010100=424242;0e010200=777676;0e010300=b7b6b6;0e010400=444;0e010500=c7ff2f;0e010600=222;0e010700=424242;0e010800=dad4d0;0e010900=b7b6b6;0f010200=424242;0f010300=606060;0f010700=424242;0f010800=b7b6b6",
+  "largeImage": "/assetMissing.png?setcolor=fff?replace;fff0=fff?crop;0;0;2;2?blendmult=/items/active/weapons/protectorate/aegisaltpistol/beamend.png;0;0?replace;a355c0a5=00010000;a355c07b=0f010000;ffffffa5=00010b00;ffffff7b=0f010b00?scale=16;12?crop;1;1;17;13?replace;00010000=424242;00010100=b7b6b6;00010900=878787;00010a00=b7b6b6;01010000=424242;01010100=878787;01010200=b7b6b6;01010800=222;01010900=222;01010a00=222;02010000=424242;02010100=878787;02010200=b7b6b6;02010800=222;02010900=424242;02010a00=424242;02010b00=656565;03010000=424242;03010100=878787;03010200=b7b6b6;03010300=424242;03010800=222;03010900=424242;03010a00=84ff00;03010b00=656565;04010000=424242;04010100=878787;04010200=b7b6b6;04010300=222;04010400=424242;04010500=424242;04010800=222;04010900=424242;04010a00=424242;04010b00=656565;05010000=424242;05010100=878787;05010200=b7b6b6;05010300=222;05010400=222;05010500=222;05010600=424242;05010700=424242;05010800=222;05010900=424242;05010a00=c7ff2f;05010b00=656565;06010000=424242;06010100=878787;06010200=b7b6b6;06010600=222;06010700=222;06010800=222;06010900=424242;06010a00=424242;06010b00=656565;07010000=424242;07010100=777676;07010200=b7b6b6;07010800=222;07010900=222;07010a00=222;08010000=424242;08010100=3b3b3b;08010200=3b3b3b;08010800=424242;08010900=dad4d0;08010a00=b7b6b6;09010000=424242;09010100=878787;09010200=b7b6b6;09010300=3b3b3b;09010700=777676;09010800=424242;09010900=dad4d0;09010a00=b7b6b6;0a010000=424242;0a010100=878787;0a010200=878787;0a010300=b7b6b6;0a010400=444;0a010500=222;0a010600=222;0a010700=424242;0a010800=777676;0a010900=dad4d0;0a010a00=b7b6b6;0b010000=424242;0b010100=777676;0b010200=878787;0b010300=b7b6b6;0b010400=444;0b010500=84ff00;0b010600=222;0b010700=424242;0b010800=878787;0b010900=dad4d0;0b010a00=b7b6b6;0c010100=424242;0c010200=878787;0c010300=b7b6b6;0c010400=444;0c010500=c7ff2f;0c010600=222;0c010700=424242;0c010800=dad4d0;0c010900=b7b6b6;0d010100=424242;0d010200=878787;0d010300=b7b6b6;0d010400=444;0d010500=c7ff2f;0d010600=222;0d010700=424242;0d010800=dad4d0;0d010900=b7b6b6;0e010100=424242;0e010200=777676;0e010300=b7b6b6;0e010400=444;0e010500=c7ff2f;0e010600=222;0e010700=424242;0e010800=dad4d0;0e010900=b7b6b6;0f010200=424242;0f010300=606060;0f010700=424242;0f010800=b7b6b6",
+  "animationCustom": {
+    "globalTagDefaults": {
+      "paletteSwaps": ""
+    },
+    "animatedParts": {
+      "stateTypes": {
+        "firing": {
+          "default": "off",
+          "states": {
+            "off": {},
+            "fire": {
+              "frames": 1,
+              "cycle": 0.01,
+              "mode": "transition",
+              "transition": "off"
+            }
+          }
+        },
+        "middle": {
+          "default": "idle",
+          "states": {
+            "idle": {
+              "frames": 1
+            }
+          }
+        }
+      },
+      "parts": {
+        "butt": {
+          "properties": {
+            "centered": true,
+            "image": "",
+            "offset": [
+              0,
+              0
+            ],
+            "transformationGroups": [
+              "weapon"
+            ]
+          }
+        },
+        "middle": {
+          "properties": {
+            "centered": true,
+            "offset": [
+              0,
+              0
+            ],
+            "transformationGroups": [
+              "weapon"
+            ]
+          },
+          "partStates": {
+            "middle": {
+              "idle": {
+                "properties": {
+                  "image": "<partImage><paletteSwaps>"
+                }
+              }
+            }
+          }
+        },
+        "middlefullbright": {
+          "properties": {
+            "centered": true,
+            "offset": [
+              0,
+              0
+            ],
+            "zLevel": 1,
+            "transformationGroups": [
+              "weapon"
+            ],
+            "fullbright": true
+          },
+          "partStates": {
+            "middle": {
+              "idle": {
+                "properties": {
+                  "image": "<partImage><paletteSwaps>"
+                }
+              }
+            }
+          }
+        },
+        "barrel": {
+          "properties": {
+            "centered": true,
+            "image": "",
+            "offset": [
+              0,
+              0
+            ],
+            "transformationGroups": [
+              "weapon"
+            ]
+          }
+        },
+        "muzzleFlash": {
+          "properties": {
+            "zLevel": -1,
+            "centered": true,
+            "offset": [
+              0.75,
+              0
+            ],
+            "image": "",
+            "fullbright": true,
+            "transformationGroups": [
+              "muzzle"
+            ]
+          },
+          "partStates": {
+            "firing": {
+              "fire": {
+                "properties": {
+                  "image": ""
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "rotationGroups": {
+      "weapon": {
+        "angularVelocity": 0
+      }
+    },
+    "transformationGroups": {
+      "weapon": {},
+      "muzzle": {}
+    },
+    "particleEmitters": {},
+    "lights": {
+      "muzzleFlash": {
+        "active": false,
+        "position": [
+          0,
+          0
+        ],
+        "color": [
+          66,
+          128,
+          0
+        ]
+      },
+      "glow": {
+        "active": true,
+        "position": [
+          0.75,
+          0.5
+        ],
+        "color": [
+          66,
+          128,
+          0
+        ]
+      }
+    },
+    "sounds": {
+      "fire": [
+        "/sfx/gun/electricrailgun1.ogg"
+      ]
+    }
+  },
+
+
+
+
+
+
+
+  "primaryAbility": {
+    "class": "GunFire",
+    "fireTime": 0.25,
+    "baseDps": 8.0,
+    "energyUsage": 1,
+    "inaccuracy": 0.008,
+    "fireType": "auto",
+    "projectileType": "bullet-1",
+    "baseOffset": [
+      -4,
+      -4
+    ],
+    "projectileCount": 1,
+    "projectileParameters": {
+      "processing": "?crop=0;0;0;0",
+      "timeToLive": 0,
+      "damageType": "NoDamage",
+      "actionOnCollide": [],
+      "actionOnReap": [
+        {
+          "action": "spawnmonster",
+          "type": "punchy",
+          "offset": [
+            0,
+            0
+          ],
+          "arguments": {
+            "aggressive": true,
+            "damageTeamType": "friendly",
+            "persistent" : false,
+            "scripts": [
+              "/monsters/monster.lua"
+            ],
+            "behaviorUpdateDelta": 1,
+            "initialScriptDelta": 1,
+            "movementSettings": {
+              "collisionEnabled": false,
+              "collisionPoly": [
+                [
+                  0.26,
+                  0.625
+                ],
+                [
+                  0.625,
+                  0.26
+                ],
+                [
+                  0.625,
+                  -0.26
+                ],
+                [
+                  0.26,
+                  -0.625
+                ],
+                [
+                  -0.26,
+                  -0.625
+                ],
+                [
+                  -0.625,
+                  -0.26
+                ],
+                [
+                  -0.625,
+                  0.26
+                ],
+                [
+                  -0.26,
+                  0.625
+                ]
+              ],
+              "mass": 1.0,
+              "walkSpeed": 0,
+              "runSpeed": 0,
+              "gravityEnabled": false,
+              "airFriction": 300,
+              "airForce": 5000,
+              "flySpeed": 0
+            },
+            "animationCustom": {
+              "animatedParts": {
+                "stateTypes": {
+                  "body": {
+                    "priority": 0,
+                    "default": "idle",
+                    "states": {
+                      "idle": {
+                        "frames": 1
+                      },
+                      "fly": {
+                        "frames": 1
+                      }
+                    }
+                  },
+                  "damage": {
+                    "priority": 3,
+                    "default": "none",
+                    "states": {
+                      "none": {
+                        "frames": 1
+                      },
+                      "stunned": {
+                        "frames": 1
+                      }
+                    }
+                  },
+                  "attack": {
+                    "priority": 2,
+                    "default": "none",
+                    "states": {
+                      "none": {
+                        "frames": 1
+                      },
+                      "firewindup": {
+                        "frames": 1,
+                        "cycle": 0.2,
+                        "mode": "transition",
+                        "transition": "firewindup2"
+                      },
+                      "firewindup2": {
+                        "frames": 1
+                      },
+                      "fire": {
+                        "frames": 1,
+                        "cycle": 0.2,
+                        "mode": "transition",
+                        "transition": "fire2"
+                      },
+                      "fire2": {
+                        "frames": 1,
+                        "cycle": 0.2,
+                        "mode": "transition",
+                        "transition": "fire"
+                      },
+                      "firewinddown": {
+                        "frames": 1,
+                        "cycle": 0.2,
+                        "mode": "transition",
+                        "transition": "firewinddown2"
+                      },
+                      "firewinddown2": {
+                        "frames": 1
+                      }
+                    }
+                  }
+                },
+                "parts": {
+                  "body": {
+                    "properties": {
+                      "zLevel" : 1,
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "transformationGroups": [
+                        "bodyRotate",
+                        "facing"
+                      ],
+                      "rotationCenter": [
+                        0,
+                        0
+                      ]
+                    },
+                    "partStates": {
+                      "body": {
+                        "idle": {
+                          "properties": {
+                            "image": "/assetMissing.png?setcolor=fff?replace;fff0=fff?crop;0;0;2;2?blendmult=/items/active/weapons/protectorate/aegisaltpistol/beamend.png;0;0?replace;a355c0a5=00010000;a355c07b=06010000;ffffffa5=00010600;ffffff7b=06010600?scale=7;7?crop;1;1;8;8?replace;00010200=424242;00010300=6f6f6f;00010400=6f6f6f;01010100=424242;01010200=6f6f6f;01010300=c9c9c9;01010400=afafaf;01010500=6f6f6f;02010000=424242;02010100=6f6f6f;02010200=6f6f6f;02010300=c9c9c9;02010400=afafaf;02010500=afafaf;02010600=6f6f6f;03010000=000;03010100=6f6f6f;03010200=6f6f6f;03010300=000;03010400=afafaf;03010500=999898;03010600=6f6f6f;04010000=000;04010100=424242;04010200=000;04010300=fff;04010400=000;04010500=6f6f6f;04010600=424242;05010100=000;05010200=424242;05010300=000;05010400=6f6f6f;05010500=424242;06010200=000;06010300=000;06010400=424242"
+                          }
+                        },
+                        "fly": {
+                          "properties": {
+                            "image": "/assetMissing.png?setcolor=fff?replace;fff0=fff?crop;0;0;2;2?blendmult=/items/active/weapons/protectorate/aegisaltpistol/beamend.png;0;0?replace;a355c0a5=00010000;a355c07b=06010000;ffffffa5=00010600;ffffff7b=06010600?scale=7;7?crop;1;1;8;8?replace;00010200=424242;00010300=6f6f6f;00010400=6f6f6f;01010100=424242;01010200=6f6f6f;01010300=c9c9c9;01010400=afafaf;01010500=6f6f6f;02010000=424242;02010100=6f6f6f;02010200=6f6f6f;02010300=c9c9c9;02010400=afafaf;02010500=afafaf;02010600=6f6f6f;03010000=000;03010100=6f6f6f;03010200=6f6f6f;03010300=000;03010400=afafaf;03010500=999898;03010600=6f6f6f;04010000=000;04010100=424242;04010200=000;04010300=fff;04010400=000;04010500=6f6f6f;04010600=424242;05010100=000;05010200=424242;05010300=000;05010400=6f6f6f;05010500=424242;06010200=000;06010300=000;06010400=424242"
+                          }
+                        }
+                      },
+                      "damage": {
+                        "stunned": {
+                          "properties": {
+                            "image": "/assetMissing.png?setcolor=fff?replace;fff0=fff?crop;0;0;2;2?blendmult=/items/active/weapons/protectorate/aegisaltpistol/beamend.png;0;0?replace;a355c0a5=00010000;a355c07b=06010000;ffffffa5=00010600;ffffff7b=06010600?scale=7;7?crop;1;1;8;8?replace;00010200=424242;00010300=6f6f6f;00010400=6f6f6f;01010100=424242;01010200=6f6f6f;01010300=c9c9c9;01010400=afafaf;01010500=6f6f6f;02010000=424242;02010100=6f6f6f;02010200=6f6f6f;02010300=c9c9c9;02010400=afafaf;02010500=afafaf;02010600=6f6f6f;03010000=000;03010100=6f6f6f;03010200=6f6f6f;03010300=000;03010400=afafaf;03010500=999898;03010600=6f6f6f;04010000=000;04010100=424242;04010200=000;04010300=f2a400;04010400=000;04010500=6f6f6f;04010600=424242;05010100=000;05010200=424242;05010300=000;05010400=6f6f6f;05010500=424242;06010200=000;06010300=000;06010400=424242"
+                          }
+                        }
+                      },
+                      "attack": {
+                        "firewindup": {
+                          "properties": {
+                            "image": "/assetMissing.png?setcolor=fff?replace;fff0=fff?crop;0;0;2;2?blendmult=/items/active/weapons/protectorate/aegisaltpistol/beamend.png;0;0?replace;a355c0a5=00010000;a355c07b=06010000;ffffffa5=00010600;ffffff7b=06010600?scale=7;7?crop;1;1;8;8?replace;00010200=424242;00010300=6f6f6f;00010400=6f6f6f;01010100=424242;01010200=6f6f6f;01010300=c9c9c9;01010400=afafaf;01010500=6f6f6f;02010000=424242;02010100=6f6f6f;02010200=6f6f6f;02010300=c9c9c9;02010400=afafaf;02010500=afafaf;02010600=6f6f6f;03010000=000;03010100=6f6f6f;03010200=6f6f6f;03010300=000;03010400=afafaf;03010500=999898;03010600=6f6f6f;04010000=000;04010100=424242;04010200=000;04010300=f2a400;04010400=000;04010500=6f6f6f;04010600=424242;05010100=000;05010200=424242;05010300=000;05010400=6f6f6f;05010500=424242;06010200=000;06010300=000;06010400=424242"
+                          }
+                        },
+                        "firewindup2": {
+                          "properties": {
+                            "image": "/assetMissing.png?setcolor=fff?replace;fff0=fff?crop;0;0;2;2?blendmult=/items/active/weapons/protectorate/aegisaltpistol/beamend.png;0;0?replace;a355c0a5=00010000;a355c07b=06010000;ffffffa5=00010600;ffffff7b=06010600?scale=7;7?crop;1;1;8;8?replace;00010200=424242;00010300=6f6f6f;00010400=6f6f6f;01010100=424242;01010200=6f6f6f;01010300=c9c9c9;01010400=afafaf;01010500=6f6f6f;02010000=424242;02010100=6f6f6f;02010200=6f6f6f;02010300=c9c9c9;02010400=afafaf;02010500=afafaf;02010600=6f6f6f;03010000=000;03010100=6f6f6f;03010200=6f6f6f;03010300=000;03010400=afafaf;03010500=999898;03010600=6f6f6f;04010000=000;04010100=424242;04010200=000;04010300=ff4600;04010400=000;04010500=6f6f6f;04010600=424242;05010100=000;05010200=424242;05010300=000;05010400=6f6f6f;05010500=424242;06010200=000;06010300=000;06010400=424242"
+                          }
+                        },
+                        "fire": {
+                          "properties": {
+                            "image": "/assetMissing.png?setcolor=fff?replace;fff0=fff?scalenearest=1?crop=0;0;7;7?blendmult=/objects/outpost/customsign/signplaceholder.png;0;0?replace;01000101=0000;01000201=0000;01000301=424242;01000401=6f6f6f;01000501=6f6f6f;01000601=0000;01000701=0000;02000101=0000;02000201=424242;02000301=6f6f6f;02000401=c9c9c9;02000501=afafaf;02000601=6f6f6f;02000701=0000;03000101=424242;03000201=6f6f6f;03000301=6f6f6f;03000401=c9c9c9;03000501=afafaf;03000601=afafaf;03000701=6f6f6f;04000101=000;04000201=6f6f6f;04000301=6f6f6f;04000401=ff4600;04000501=afafaf;04000601=999898;04000701=6f6f6f;05000101=000;05000201=424242;05000301=ff4600;05000401=fefefe;05000501=ff4600;05000601=6f6f6f;05000701=424242;06000101=0000;06000201=000;06000301=424242;06000401=ff4600;06000501=6f6f6f;06000601=424242;06000701=0000;07000101=0000;07000201=0000;07000301=000;07000401=000;07000501=424242;07000601=0000;07000701=0000?replace;ffffffff=00000000"
+                          }
+                        },
+                        "fire2": {
+                          "properties": {
+                            "image": "/assetMissing.png?setcolor=fff?replace;fff0=fff?scalenearest=1?crop=0;0;7;7?blendmult=/objects/outpost/customsign/signplaceholder.png;0;0?replace;01000101=0000;01000201=0000;01000301=424242;01000401=6f6f6f;01000501=6f6f6f;01000601=0000;01000701=0000;02000101=0000;02000201=424242;02000301=6f6f6f;02000401=c9c9c9;02000501=afafaf;02000601=6f6f6f;02000701=0000;03000101=424242;03000201=6f6f6f;03000301=6f6f6f;03000401=c9c9c9;03000501=afafaf;03000601=afafaf;03000701=6f6f6f;04000101=000;04000201=6f6f6f;04000301=ff4600;04000401=e97900;04000501=ff4600;04000601=999898;04000701=6f6f6f;05000101=000;05000201=424242;05000301=e97900;05000401=fefefe;05000501=e97900;05000601=6f6f6f;05000701=424242;06000101=0000;06000201=000;06000301=ff4600;06000401=e97900;06000501=ff4600;06000601=424242;06000701=0000;07000101=0000;07000201=0000;07000301=000;07000401=000;07000501=424242;07000601=0000;07000701=0000?replace;ffffffff=00000000"
+                          }
+                        },
+                        "firewinddown": {
+                          "properties": {
+                            "image": "/assetMissing.png?setcolor=fff?replace;fff0=fff?crop;0;0;2;2?blendmult=/items/active/weapons/protectorate/aegisaltpistol/beamend.png;0;0?replace;a355c0a5=00010000;a355c07b=06010000;ffffffa5=00010600;ffffff7b=06010600?scale=7;7?crop;1;1;8;8?replace;00010200=424242;00010300=6f6f6f;00010400=6f6f6f;01010100=424242;01010200=6f6f6f;01010300=c9c9c9;01010400=afafaf;01010500=6f6f6f;02010000=424242;02010100=6f6f6f;02010200=6f6f6f;02010300=c9c9c9;02010400=afafaf;02010500=afafaf;02010600=6f6f6f;03010000=000;03010100=6f6f6f;03010200=6f6f6f;03010300=000;03010400=afafaf;03010500=999898;03010600=6f6f6f;04010000=000;04010100=424242;04010200=000;04010300=ff4600;04010400=000;04010500=6f6f6f;04010600=424242;05010100=000;05010200=424242;05010300=000;05010400=6f6f6f;05010500=424242;06010200=000;06010300=000;06010400=424242"
+                          }
+                        },
+                        "firewinddown2": {
+                          "properties": {
+                            "image": "/assetMissing.png?setcolor=fff?replace;fff0=fff?crop;0;0;2;2?blendmult=/items/active/weapons/protectorate/aegisaltpistol/beamend.png;0;0?replace;a355c0a5=00010000;a355c07b=06010000;ffffffa5=00010600;ffffff7b=06010600?scale=7;7?crop;1;1;8;8?replace;00010200=424242;00010300=6f6f6f;00010400=6f6f6f;01010100=424242;01010200=6f6f6f;01010300=c9c9c9;01010400=afafaf;01010500=6f6f6f;02010000=424242;02010100=6f6f6f;02010200=6f6f6f;02010300=c9c9c9;02010400=afafaf;02010500=afafaf;02010600=6f6f6f;03010000=000;03010100=6f6f6f;03010200=6f6f6f;03010300=000;03010400=afafaf;03010500=999898;03010600=6f6f6f;04010000=000;04010100=424242;04010200=000;04010300=f2a400;04010400=000;04010500=6f6f6f;04010600=424242;05010100=000;05010200=424242;05010300=000;05010400=6f6f6f;05010500=424242;06010200=000;06010300=000;06010400=424242"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "bodyfullbright": {
+                    "properties": {
+                      "fullbright" : true,
+                      "zLevel" : 2,
+                      "offset": [
+                        0,
+                        0
+                      ],
+                      "transformationGroups": [
+                        "bodyRotate",
+                        "facing"
+                      ],
+                      "rotationCenter": [
+                        0,
+                        0
+                      ]
+                    },
+                    "partStates": {
+                      "body": {
+                        "idle": {
+                          "properties": {
+                            "image": "/assetMissing.png?setcolor=fff?replace;fff0=fff?crop;0;0;2;2?blendmult=/items/active/weapons/protectorate/aegisaltpistol/beamend.png;0;0?replace;a355c0a5=00010000;a355c07b=06010000;ffffffa5=00010600;ffffff7b=06010600?scale=7;7?crop;1;1;8;8?replace;04010300=fff"
+                          }
+                        },
+                        "fly": {
+                          "properties": {
+                            "image": "/assetMissing.png?setcolor=fff?replace;fff0=fff?crop;0;0;2;2?blendmult=/items/active/weapons/protectorate/aegisaltpistol/beamend.png;0;0?replace;a355c0a5=00010000;a355c07b=06010000;ffffffa5=00010600;ffffff7b=06010600?scale=7;7?crop;1;1;8;8?replace;04010300=fff"
+                          }
+                        }
+                      },
+                      "damage": {
+                        "stunned": {
+                          "properties": {
+                            "image": "/assetMissing.png?setcolor=fff?replace;fff0=fff?crop;0;0;2;2?blendmult=/items/active/weapons/protectorate/aegisaltpistol/beamend.png;0;0?replace;a355c0a5=00010000;a355c07b=06010000;ffffffa5=00010600;ffffff7b=06010600?scale=7;7?crop;1;1;8;8?replace;04010300=f2a400"
+                          }
+                        }
+                      },
+                      "attack": {
+                        "firewindup": {
+                          "properties": {
+                            "image": "/assetMissing.png?setcolor=fff?replace;fff0=fff?crop;0;0;2;2?blendmult=/items/active/weapons/protectorate/aegisaltpistol/beamend.png;0;0?replace;a355c0a5=00010000;a355c07b=06010000;ffffffa5=00010600;ffffff7b=06010600?scale=7;7?crop;1;1;8;8?replace;04010300=f2a400"
+                          }
+                        },
+                        "firewindup2": {
+                          "properties": {
+                            "image": "/assetMissing.png?setcolor=fff?replace;fff0=fff?crop;0;0;2;2?blendmult=/items/active/weapons/protectorate/aegisaltpistol/beamend.png;0;0?replace;a355c0a5=00010000;a355c07b=06010000;ffffffa5=00010600;ffffff7b=06010600?scale=7;7?crop;1;1;8;8?replace;04010300=ff4600"
+                          }
+                        },
+                        "fire": {
+                          "properties": {
+                            "image": "/assetMissing.png?setcolor=fff?replace;fff0=fff?crop;0;0;2;2?blendmult=/items/active/weapons/protectorate/aegisaltpistol/beamend.png;0;0?replace;a355c0a5=00010000;a355c07b=06010000;ffffffa5=00010600;ffffff7b=06010600?scale=7;7?crop;1;1;8;8?replace;03010300=ff4600;04010200=ff4600;04010300=fff;04010400=ff4600;05010300=ff4600"
+                          }
+                        },
+                        "fire2": {
+                          "properties": {
+                            "image": "/assetMissing.png?setcolor=fff?replace;fff0=fff?crop;0;0;2;2?blendmult=/items/active/weapons/protectorate/aegisaltpistol/beamend.png;0;0?replace;a355c0a5=00010000;a355c07b=06010000;ffffffa5=00010600;ffffff7b=06010600?scale=7;7?crop;1;1;8;8?replace;03010200=ff4600;03010300=e97900;03010400=ff4600;04010200=e97900;04010300=fff;04010400=e97900;05010200=ff4600;05010300=e97900;05010400=ff4600"
+                          }
+                        },
+                        "firewinddown": {
+                          "properties": {
+                            "image": "/assetMissing.png?setcolor=fff?replace;fff0=fff?crop;0;0;2;2?blendmult=/items/active/weapons/protectorate/aegisaltpistol/beamend.png;0;0?replace;a355c0a5=00010000;a355c07b=06010000;ffffffa5=00010600;ffffff7b=06010600?scale=7;7?crop;1;1;8;8?replace;04010300=ff4600"
+                          }
+                        },
+                        "firewinddown2": {
+                          "properties": {
+                            "image": "/assetMissing.png?setcolor=fff?replace;fff0=fff?crop;0;0;2;2?blendmult=/items/active/weapons/protectorate/aegisaltpistol/beamend.png;0;0?replace;a355c0a5=00010000;a355c07b=06010000;ffffffa5=00010600;ffffff7b=06010600?scale=7;7?crop;1;1;8;8?replace;04010300=f2a400"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "transformationGroups": {
+                "facing": {
+                  "interpolated": false
+                },
+                "bodyRotate": {
+                  "interpolated": true
+                }
+              },
+              "particleEmitters": {
+                "deathPoof": {
+                  "particles": [
+                    {
+                      "particle": "electricswoosh1"
+                    },
+                    {
+                      "particle": "electricswoosh2"
+                    },
+                    {
+                      "particle": "electricswoosh1"
+                    },
+                    {
+                      "particle": "electricswoosh2"
+                    },
+                    {
+                      "particle": "deathfizz1left"
+                    },
+                    {
+                      "particle": "deathfizz1right"
+                    },
+                    {
+                      "particle": "deathfizz2left"
+                    },
+                    {
+                      "particle": "deathfizz2right"
+                    },
+                    {
+                      "particle": "deathfizz3left"
+                    },
+                    {
+                      "particle": "deathfizz3right"
+                    },
+                    {
+                      "particle": "deathfizz4left"
+                    },
+                    {
+                      "particle": "deathfizz4right"
+                    }
+                  ]
+                }
+              }
+            },
+            "statusSettings": {
+              "stats": {
+                "maxHealth": {
+                  "baseValue": 520
+                },
+                "protection": {
+                  "baseValue": 9
+                }
+              }
+            },
+            "behavior": {
+              "name": "directPlayerFollowerOnly",
+              "scripts": [
+                "/scripts/behavior.lua",
+                "/scripts/behavior/bdata.lua",
+                "/scripts/actions/entity.lua",
+                "/scripts/actions/builders.lua",
+                "/scripts/actions/notification.lua",
+                "/scripts/actions/pets.lua",
+                "/scripts/actions/world.lua",
+                "/scripts/actions/status.lua",
+                "/scripts/actions/query.lua",
+                "/scripts/actions/animator.lua",
+                "/scripts/actions/position.lua",
+                "/scripts/actions/math.lua",
+                "/scripts/actions/movement.lua",
+                "/scripts/actions/projectiles.lua",
+                "/scripts/actions/time.lua",
+                "/scripts/actions/sensor.lua"
+              ],
+              "parameters": {
+                "ownerQueryRange": 120,
+                "ownerEntityTypes": [
+                  "player"
+                ],
+                "followOffset": [
+                  0,
+                  6
+                ],
+                "moveFactor": 25.0,
+                "moveDeadzone": 0.0,
+                "FacingButton": true,
+                "queryTargets": true,
+                "targetQueryRange": 40,
+                "targetOnDamage": true,
+                "keepTargetInSight": true,
+                "keepTargetInRange": 40,
+                "targetOutOfSightTime": 3.0,
+                "attackCooldown": 0.05,
+                "attackProjectileType": "doomshot",
+                "attackProjectileParameters": {
+                  "processing": "?setcolor=fff?replace;fff0=fff?crop;0;0;2;2?blendmult=/items/active/weapons/protectorate/aegisaltpistol/beamend.png;0;0?replace;a355c0a5=00010000;a355c07b=0c010000;ffffffa5=00010000;ffffff7b=0c010000?scale=13;1?crop;1;1;14;2?replace;00010000=660200;01010000=800300;02010000=800300;03010000=ac0300;04010000=ac0300;05010000=c00400;06010000=c00400;07010000=e40500;08010000=e40500;09010000=e40500;0a010000=ff0e09;0b010000=ff0e09;0c010000=ff0e09",
+                  "power": 10,
+                  "speed": 60,
+                  "timeToLive": 3.0,
+                  "damageType": "Damage",
+                  "knockback": 2,
+                  "piercing": true,
+                  "movementSettings": {
+                     "collisionEnabled": false
+                  }
+                },
+                "attackRange": 40,
+                "fireWindupTime": 0.5,
+                "fireWinddownTime": 0.5,
+                "fireStateType": "attack",
+                "FireSequenceButton": true,
+                "fireWindupState": "firewindup",
+                "fireState": "fire",
+                "fireWinddownState": "firewinddown",
+                "fireDuration": 8.0,
+                "projectileInterval": 1.0,
+                "fireLoopMaxShots": 9999,
+                "fireNoneState": "none",
+                "attackRotationOffset": 0.0,
+                "attackRotationMinDistance": 0.05,
+                "AttackRotationButton": true,
+                "PositionFixedButton": false,
+                "wanderMaxDistance": 5.0,
+                "wanderFlySpeed": 5.0,
+                "wanderReturnMoveFactor": 15.0,
+                "playerCarryFactor": 60.0,
+                "playerCarryMinDelta": 0.0001,
+                "playerCarryMaxDelta": 10.0,
+                "wanderTurnInterval": 0.7,
+                "wanderAngleMin": 0.0,
+                "wanderAngleMax": 6.283185307179586,
+                "clearFollowerNotification": "clearJsonFollower",
+                "FollowerCapButton": true,
+                "maxFollowerCount": 4,
+                "followerManageRange": 80,
+                "countFollowerNotification": "countJsonFollower",
+                "reportFollowerNotification": "jsonFollowerReport",
+                "reportWaitTime": 0.05,
+                "capCheckCooldown": 999999,
+                "countEntityTypes": [
+                  "monster"
+                ],
+                "WanderFaceAwayFromPlayerButton": true,
+                "wanderFaceAwayMinDistance": 0.05
+              },
+              "root": {
+                "title": "sequence",
+                "type": "composite",
+                "name": "sequence",
+                "parameters": {},
+                "children": [
+                  {
+                    "title": "parallel",
+                    "type": "composite",
+                    "name": "parallel",
+                    "parameters": {
+                      "fail": {
+                        "value": -1
+                      },
+                      "success": {
+                        "value": -1
+                      }
+                    },
+                    "children": [
+                      {
+                        "title": "receiveClearJsonFollower",
+                        "type": "decorator",
+                        "name": "succeeder",
+                        "parameters": {},
+                        "child": {
+                          "title": "clearJsonFollowerSequence",
+                          "type": "composite",
+                          "name": "sequence",
+                          "parameters": {},
+                          "children": [
+                            {
+                              "title": "receivedClearJsonFollowerNotification",
+                              "type": "action",
+                              "name": "receivedNotification",
+                              "parameters": {
+                                "type": {
+                                  "key": "<clearFollowerNotification>"
+                                }
+                              }
+                            },
+                            {
+                              "title": "selfDestructOnClear",
+                              "type": "action",
+                              "name": "setResource",
+                              "parameters": {
+                                "resource": {
+                                  "value": "health"
+                                },
+                                "amount": {
+                                  "value": 0
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "title": "spawnFollowerCapCheckDynamic",
+                        "type": "decorator",
+                        "name": "succeeder",
+                        "parameters": {},
+                        "child": {
+                          "title": "capCheckHugeCooldown",
+                          "type": "decorator",
+                          "name": "cooldown",
+                          "parameters": {
+                            "cooldown": {
+                              "key": "<capCheckCooldown>"
+                            },
+                            "onFail": {
+                              "value": true
+                            },
+                            "onSuccess": {
+                              "value": true
+                            }
+                          },
+                          "child": {
+                            "title": "capCheckOptional",
+                            "type": "decorator",
+                            "name": "optional",
+                            "parameters": {
+                              "shouldRun": {
+                                "key": "<FollowerCapButton>"
+                              }
+                            },
+                            "child": {
+                              "title": "performDynamicFollowerCapCheck",
+                              "type": "composite",
+                              "name": "sequence",
+                              "parameters": {},
+                              "children": [
+                                {
+                                  "title": "clearFollowerReportList",
+                                  "type": "action",
+                                  "name": "listClear",
+                                  "parameters": {},
+                                  "output": {
+                                    "list": "followerReportList"
+                                  }
+                                },
+                                {
+                                  "title": "requestFollowerReportsOnly",
+                                  "type": "action",
+                                  "name": "broadcastNotification",
+                                  "parameters": {
+                                    "entityTypes": {
+                                      "key": "<countEntityTypes>"
+                                    },
+                                    "position": {
+                                      "key": "self"
+                                    },
+                                    "range": {
+                                      "key": "<followerManageRange>"
+                                    },
+                                    "target": {
+                                      "key": "self"
+                                    },
+                                    "type": {
+                                      "key": "<countFollowerNotification>"
+                                    }
+                                  }
+                                },
+                                {
+                                  "title": "collectReportsUntilTimeout",
+                                  "type": "composite",
+                                  "name": "parallel",
+                                  "parameters": {
+                                    "fail": {
+                                      "value": -1
+                                    },
+                                    "success": {
+                                      "value": 1
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "title": "reportWaitTimer",
+                                      "type": "action",
+                                      "name": "timer",
+                                      "parameters": {
+                                        "time": {
+                                          "key": "<reportWaitTime>"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "title": "collectFollowerReportsDynamic",
+                                      "type": "decorator",
+                                      "name": "repeater",
+                                      "parameters": {
+                                        "maxLoops": {
+                                          "value": 50
+                                        },
+                                        "untilSuccess": {
+                                          "value": false
+                                        }
+                                      },
+                                      "child": {
+                                        "title": "collectOneFollowerReport",
+                                        "type": "composite",
+                                        "name": "sequence",
+                                        "parameters": {},
+                                        "children": [
+                                          {
+                                            "title": "receiveJsonFollowerReport",
+                                            "type": "action",
+                                            "name": "receivedNotification",
+                                            "parameters": {
+                                              "type": {
+                                                "key": "<reportFollowerNotification>"
+                                              }
+                                            },
+                                            "output": {
+                                              "target": "reportedFollower"
+                                            }
+                                          },
+                                          {
+                                            "title": "reportedFollowerExists",
+                                            "type": "action",
+                                            "name": "entityExists",
+                                            "parameters": {
+                                              "entity": {
+                                                "key": "reportedFollower"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "title": "pushReportedFollower",
+                                            "type": "action",
+                                            "name": "listPush",
+                                            "parameters": {
+                                              "list": {
+                                                "key": "followerReportList"
+                                              },
+                                              "entity": {
+                                                "key": "reportedFollower"
+                                              }
+                                            },
+                                            "output": {
+                                              "list": "followerReportList"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "title": "followerReportCount",
+                                  "type": "action",
+                                  "name": "listSize",
+                                  "parameters": {
+                                    "list": {
+                                      "key": "followerReportList"
+                                    }
+                                  },
+                                  "output": {
+                                    "number": "followerReportCount"
+                                  }
+                                },
+                                {
+                                  "title": "rejectOnlyIfReportCountExceedsMax",
+                                  "type": "composite",
+                                  "name": "selector",
+                                  "parameters": {},
+                                  "children": [
+                                    {
+                                      "title": "rejectNewFollowerAboveMax",
+                                      "type": "composite",
+                                      "name": "sequence",
+                                      "parameters": {},
+                                      "children": [
+                                        {
+                                          "title": "reportCountGreaterThanMaxFollowerCount",
+                                          "type": "action",
+                                          "name": "greaterThan",
+                                          "parameters": {
+                                            "first": {
+                                              "key": "followerReportCount"
+                                            },
+                                            "second": {
+                                              "key": "<maxFollowerCount>"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "title": "selfDestructBecauseCapReached",
+                                          "type": "action",
+                                          "name": "setResource",
+                                          "parameters": {
+                                            "resource": {
+                                              "value": "health"
+                                            },
+                                            "amount": {
+                                              "value": 0
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "title": "acceptFollowerBelowOrAtMax",
+                                      "type": "action",
+                                      "name": "runner",
+                                      "parameters": {}
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "title": "receiveCountJsonFollower",
+                        "type": "decorator",
+                        "name": "succeeder",
+                        "parameters": {},
+                        "child": {
+                          "title": "sendReportToCountRequester",
+                          "type": "composite",
+                          "name": "sequence",
+                          "parameters": {},
+                          "children": [
+                            {
+                              "title": "receivedCountJsonFollowerNotification",
+                              "type": "action",
+                              "name": "receivedNotification",
+                              "parameters": {
+                                "type": {
+                                  "key": "<countFollowerNotification>"
+                                }
+                              },
+                              "output": {
+                                "target": "countRequester"
+                              }
+                            },
+                            {
+                              "title": "countRequesterExists",
+                              "type": "action",
+                              "name": "entityExists",
+                              "parameters": {
+                                "entity": {
+                                  "key": "countRequester"
+                                }
+                              }
+                            },
+                            {
+                              "title": "sendJsonFollowerReport",
+                              "type": "action",
+                              "name": "sendNotification",
+                              "parameters": {
+                                "entity": {
+                                  "key": "countRequester"
+                                },
+                                "type": {
+                                  "key": "<reportFollowerNotification>"
+                                },
+                                "target": {
+                                  "key": "self"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "title": "queryPlayerEveryTick",
+                        "type": "decorator",
+                        "name": "succeeder",
+                        "parameters": {},
+                        "child": {
+                          "title": "queryPlayerSeq",
+                          "type": "composite",
+                          "name": "sequence",
+                          "parameters": {},
+                          "children": [
+                            {
+                              "title": "queryNearestPlayer",
+                              "type": "action",
+                              "name": "queryEntity",
+                              "parameters": {
+                                "entityTypes": {
+                                  "key": "<ownerEntityTypes>"
+                                },
+                                "range": {
+                                  "key": "<ownerQueryRange>"
+                                }
+                              },
+                              "output": {
+                                "entity": "playerTarget"
+                              }
+                            },
+                            {
+                              "title": "playerTargetExists",
+                              "type": "action",
+                              "name": "entityExists",
+                              "parameters": {
+                                "entity": {
+                                  "key": "playerTarget"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "title": "updateAttackTarget",
+                        "type": "decorator",
+                        "name": "succeeder",
+                        "parameters": {},
+                        "child": {
+                          "title": "attackTargetSelector",
+                          "type": "composite",
+                          "name": "selector",
+                          "parameters": {},
+                          "children": [
+                            {
+                              "title": "acquireAttackTarget",
+                              "type": "composite",
+                              "name": "sequence",
+                              "parameters": {},
+                              "children": [
+                                {
+                                  "title": "monsterTargeting",
+                                  "type": "module",
+                                  "name": "monster-targeting",
+                                  "parameters": {
+                                    "queryTargets": {
+                                      "value": true
+                                    }
+                                  }
+                                },
+                                {
+                                  "title": "targetExists",
+                                  "type": "action",
+                                  "name": "entityExists",
+                                  "parameters": {
+                                    "entity": {
+                                      "key": "target"
+                                    }
+                                  }
+                                },
+                                {
+                                  "title": "cacheAttackTarget",
+                                  "type": "action",
+                                  "name": "setEntity",
+                                  "parameters": {
+                                    "entity": {
+                                      "key": "target"
+                                    }
+                                  },
+                                  "output": {
+                                    "entity": "attackTarget"
+                                  }
+                                },
+                                {
+                                  "title": "setHostile",
+                                  "type": "action",
+                                  "name": "setFlag",
+                                  "parameters": {
+                                    "name": {
+                                      "value": "hostile"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "title": "clearAttackTarget",
+                              "type": "composite",
+                              "name": "sequence",
+                              "parameters": {},
+                              "children": [
+                                {
+                                  "title": "unsetAttackTarget",
+                                  "type": "action",
+                                  "name": "unset",
+                                  "parameters": {
+                                    "key": {
+                                      "value": "attackTarget"
+                                    },
+                                    "type": {
+                                      "value": "entity"
+                                    }
+                                  }
+                                },
+                                {
+                                  "title": "unsetTarget",
+                                  "type": "action",
+                                  "name": "unset",
+                                  "parameters": {
+                                    "key": {
+                                      "value": "target"
+                                    },
+                                    "type": {
+                                      "value": "entity"
+                                    }
+                                  }
+                                },
+                                {
+                                  "title": "unsetHostile",
+                                  "type": "action",
+                                  "name": "unsetFlag",
+                                  "parameters": {
+                                    "name": {
+                                      "value": "hostile"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "title": "directVelocityFollow",
+                        "type": "composite",
+                        "name": "dynamic",
+                        "parameters": {},
+                        "children": [
+                          {
+                            "title": "positionModeSelector",
+                            "type": "composite",
+                            "name": "selector",
+                            "parameters": {},
+                            "children": [
+                              {
+                                "title": "fixedPositionMode",
+                                "type": "decorator",
+                                "name": "optional",
+                                "parameters": {
+                                  "shouldRun": {
+                                    "key": "<PositionFixedButton>"
+                                  }
+                                },
+                                "child": {
+                                  "title": "followPlayerOffset",
+                                  "type": "composite",
+                                  "name": "sequence",
+                                  "parameters": {},
+                                  "children": [
+                                    {
+                                      "title": "targetExists",
+                                      "type": "action",
+                                      "name": "entityExists",
+                                      "parameters": {
+                                        "entity": {
+                                          "key": "playerTarget"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "title": "playerPosition",
+                                      "type": "action",
+                                      "name": "entityPosition",
+                                      "parameters": {
+                                        "entity": {
+                                          "key": "playerTarget"
+                                        }
+                                      },
+                                      "output": {
+                                        "position": "playerPosition"
+                                      }
+                                    },
+                                    {
+                                      "title": "desiredPosition",
+                                      "type": "action",
+                                      "name": "offsetPosition",
+                                      "parameters": {
+                                        "position": {
+                                          "key": "playerPosition"
+                                        },
+                                        "offset": {
+                                          "key": "<followOffset>"
+                                        }
+                                      },
+                                      "output": {
+                                        "position": "desiredPosition"
+                                      }
+                                    },
+                                    {
+                                      "title": "distanceToDesired",
+                                      "type": "action",
+                                      "name": "distance",
+                                      "parameters": {
+                                        "from": {
+                                          "key": "self"
+                                        },
+                                        "to": {
+                                          "key": "desiredPosition"
+                                        }
+                                      },
+                                      "output": {
+                                        "magnitude": "desiredDistance",
+                                        "vector": "desiredMoveVector"
+                                      }
+                                    },
+                                    {
+                                      "title": "moveOrStop",
+                                      "type": "composite",
+                                      "name": "selector",
+                                      "parameters": {},
+                                      "children": [
+                                        {
+                                          "title": "moveByVelocity",
+                                          "type": "composite",
+                                          "name": "sequence",
+                                          "parameters": {},
+                                          "children": [
+                                            {
+                                              "title": "outsideDeadzone",
+                                              "type": "action",
+                                              "name": "greaterThan",
+                                              "parameters": {
+                                                "first": {
+                                                  "key": "desiredDistance"
+                                                },
+                                                "second": {
+                                                  "key": "<moveDeadzone>"
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "title": "calculateVelocity",
+                                              "type": "action",
+                                              "name": "vecMultiply",
+                                              "parameters": {
+                                                "first": {
+                                                  "key": "desiredMoveVector"
+                                                },
+                                                "number": {
+                                                  "key": "<moveFactor>"
+                                                }
+                                              },
+                                              "output": {
+                                                "vector": "followVelocity"
+                                              }
+                                            },
+                                            {
+                                              "title": "setFlyAnimation",
+                                              "type": "action",
+                                              "name": "setAnimationState",
+                                              "parameters": {
+                                                "type": {
+                                                  "value": "body"
+                                                },
+                                                "state": {
+                                                  "value": "fly"
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "title": "setVelocity",
+                                              "type": "action",
+                                              "name": "setVelocity",
+                                              "parameters": {
+                                                "velocity": {
+                                                  "key": "followVelocity"
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "title": "stopAtDesired",
+                                          "type": "composite",
+                                          "name": "sequence",
+                                          "parameters": {},
+                                          "children": [
+                                            {
+                                              "title": "zeroVector",
+                                              "type": "action",
+                                              "name": "vecMultiply",
+                                              "parameters": {
+                                                "first": {
+                                                  "value": [
+                                                    0,
+                                                    0
+                                                  ]
+                                                },
+                                                "number": {
+                                                  "value": 0
+                                                }
+                                              },
+                                              "output": {
+                                                "vector": "zeroVelocity"
+                                              }
+                                            },
+                                            {
+                                              "title": "setIdleAnimation",
+                                              "type": "action",
+                                              "name": "setAnimationState",
+                                              "parameters": {
+                                                "type": {
+                                                  "value": "body"
+                                                },
+                                                "state": {
+                                                  "value": "idle"
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "title": "setVelocityZero",
+                                              "type": "action",
+                                              "name": "setVelocity",
+                                              "parameters": {
+                                                "velocity": {
+                                                  "key": "zeroVelocity"
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "relativeWanderAroundPlayerWhenPositionNotFixed",
+                                "type": "composite",
+                                "name": "sequence",
+                                "parameters": {},
+                                "children": [
+                                  {
+                                    "title": "playerTargetExists",
+                                    "type": "action",
+                                    "name": "entityExists",
+                                    "parameters": {
+                                      "entity": {
+                                        "key": "playerTarget"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "title": "playerPosition",
+                                    "type": "action",
+                                    "name": "entityPosition",
+                                    "parameters": {
+                                      "entity": {
+                                        "key": "playerTarget"
+                                      }
+                                    },
+                                    "output": {
+                                      "position": "playerPosition"
+                                    }
+                                  },
+                                  {
+                                    "title": "calculatePlayerCarryVelocity",
+                                    "type": "composite",
+                                    "name": "selector",
+                                    "parameters": {},
+                                    "children": [
+                                      {
+                                        "title": "usePlayerDeltaCarryVelocity",
+                                        "type": "composite",
+                                        "name": "sequence",
+                                        "parameters": {},
+                                        "children": [
+                                          {
+                                            "title": "playerFrameDelta",
+                                            "type": "action",
+                                            "name": "distance",
+                                            "parameters": {
+                                              "from": {
+                                                "key": "lastPlayerPosition"
+                                              },
+                                              "to": {
+                                                "key": "playerPosition"
+                                              }
+                                            },
+                                            "output": {
+                                              "magnitude": "playerDeltaDistance",
+                                              "vector": "playerDeltaVector"
+                                            }
+                                          },
+                                          {
+                                            "title": "playerDeltaAboveMin",
+                                            "type": "action",
+                                            "name": "greaterThan",
+                                            "parameters": {
+                                              "first": {
+                                                "key": "playerDeltaDistance"
+                                              },
+                                              "second": {
+                                                "key": "<playerCarryMinDelta>"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "title": "playerDeltaBelowMax",
+                                            "type": "decorator",
+                                            "name": "inverter",
+                                            "parameters": {},
+                                            "child": {
+                                              "title": "playerDeltaGreaterThanMax",
+                                              "type": "action",
+                                              "name": "greaterThan",
+                                              "parameters": {
+                                                "first": {
+                                                  "key": "playerDeltaDistance"
+                                                },
+                                                "second": {
+                                                  "key": "<playerCarryMaxDelta>"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "title": "playerCarryVelocity",
+                                            "type": "action",
+                                            "name": "vecMultiply",
+                                            "parameters": {
+                                              "first": {
+                                                "key": "playerDeltaVector"
+                                              },
+                                              "number": {
+                                                "key": "<playerCarryFactor>"
+                                              }
+                                            },
+                                            "output": {
+                                              "vector": "playerCarryVelocity"
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "title": "noPlayerCarryVelocity",
+                                        "type": "action",
+                                        "name": "vecMultiply",
+                                        "parameters": {
+                                          "first": {
+                                            "value": [
+                                              0,
+                                              0
+                                            ]
+                                          },
+                                          "number": {
+                                            "value": 0
+                                          }
+                                        },
+                                        "output": {
+                                          "vector": "playerCarryVelocity"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "title": "cachePlayerPositionForCarryVelocity",
+                                    "type": "action",
+                                    "name": "offsetPosition",
+                                    "parameters": {
+                                      "position": {
+                                        "key": "playerPosition"
+                                      },
+                                      "offset": {
+                                        "value": [
+                                          0,
+                                          0
+                                        ]
+                                      }
+                                    },
+                                    "output": {
+                                      "position": "lastPlayerPosition"
+                                    }
+                                  },
+                                  {
+                                    "title": "distanceToPlayerForRelativeWander",
+                                    "type": "action",
+                                    "name": "distance",
+                                    "parameters": {
+                                      "from": {
+                                        "key": "self"
+                                      },
+                                      "to": {
+                                        "key": "playerPosition"
+                                      }
+                                    },
+                                    "output": {
+                                      "magnitude": "desiredDistance",
+                                      "vector": "desiredMoveVector"
+                                    }
+                                  },
+                                  {
+                                    "title": "updateManualWanderDirection",
+                                    "type": "decorator",
+                                    "name": "succeeder",
+                                    "parameters": {},
+                                    "child": {
+                                      "title": "wanderDirectionCooldown",
+                                      "type": "decorator",
+                                      "name": "cooldown",
+                                      "parameters": {
+                                        "cooldown": {
+                                          "key": "<wanderTurnInterval>"
+                                        },
+                                        "onFail": {
+                                          "value": true
+                                        },
+                                        "onSuccess": {
+                                          "value": true
+                                        }
+                                      },
+                                      "child": {
+                                        "title": "pickManualWanderDirection",
+                                        "type": "composite",
+                                        "name": "sequence",
+                                        "parameters": {},
+                                        "children": [
+                                          {
+                                            "title": "randomWanderAngle",
+                                            "type": "action",
+                                            "name": "random",
+                                            "parameters": {
+                                              "min": {
+                                                "key": "<wanderAngleMin>"
+                                              },
+                                              "max": {
+                                                "key": "<wanderAngleMax>"
+                                              }
+                                            },
+                                            "output": {
+                                              "number": "manualWanderAngle"
+                                            }
+                                          },
+                                          {
+                                            "title": "manualWanderDirection",
+                                            "type": "action",
+                                            "name": "vecRotate",
+                                            "parameters": {
+                                              "vector": {
+                                                "value": [
+                                                  1,
+                                                  0
+                                                ]
+                                              },
+                                              "angle": {
+                                                "key": "manualWanderAngle"
+                                              }
+                                            },
+                                            "output": {
+                                              "vector": "manualWanderDirection"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "title": "relativeWanderMovementSelector",
+                                    "type": "composite",
+                                    "name": "selector",
+                                    "parameters": {},
+                                    "children": [
+                                      {
+                                        "title": "returnToPlayerWithCarryWhenOutsideRange",
+                                        "type": "composite",
+                                        "name": "sequence",
+                                        "parameters": {},
+                                        "children": [
+                                          {
+                                            "title": "outsideWanderMaxDistance",
+                                            "type": "action",
+                                            "name": "greaterThan",
+                                            "parameters": {
+                                              "first": {
+                                                "key": "desiredDistance"
+                                              },
+                                              "second": {
+                                                "key": "<wanderMaxDistance>"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "title": "calculateReturnVelocity",
+                                            "type": "action",
+                                            "name": "vecMultiply",
+                                            "parameters": {
+                                              "first": {
+                                                "key": "desiredMoveVector"
+                                              },
+                                              "number": {
+                                                "key": "<wanderReturnMoveFactor>"
+                                              }
+                                            },
+                                            "output": {
+                                              "vector": "returnVelocity"
+                                            }
+                                          },
+                                          {
+                                            "title": "finalReturnVelocityWithPlayerCarry",
+                                            "type": "action",
+                                            "name": "vecAdd",
+                                            "parameters": {
+                                              "first": {
+                                                "key": "returnVelocity"
+                                              },
+                                              "second": {
+                                                "key": "playerCarryVelocity"
+                                              }
+                                            },
+                                            "output": {
+                                              "vector": "followVelocity"
+                                            }
+                                          },
+                                          {
+                                            "title": "setFlyAnimation",
+                                            "type": "action",
+                                            "name": "setAnimationState",
+                                            "parameters": {
+                                              "type": {
+                                                "value": "body"
+                                              },
+                                              "state": {
+                                                "value": "fly"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "title": "setReturnCarryVelocity",
+                                            "type": "action",
+                                            "name": "setVelocity",
+                                            "parameters": {
+                                              "velocity": {
+                                                "key": "followVelocity"
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "title": "manualWanderWithPlayerCarryInsideRange",
+                                        "type": "composite",
+                                        "name": "sequence",
+                                        "parameters": {},
+                                        "children": [
+                                          {
+                                            "title": "insideWanderMaxDistance",
+                                            "type": "action",
+                                            "name": "entityInRange",
+                                            "parameters": {
+                                              "entity": {
+                                                "key": "playerTarget"
+                                              },
+                                              "position": {
+                                                "key": "self"
+                                              },
+                                              "range": {
+                                                "key": "<wanderMaxDistance>"
+                                              },
+                                              "xRange": {
+                                                "value": null
+                                              },
+                                              "yRange": {
+                                                "value": null
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "title": "calculateManualWanderVelocity",
+                                            "type": "composite",
+                                            "name": "selector",
+                                            "parameters": {},
+                                            "children": [
+                                              {
+                                                "title": "useManualWanderDirection",
+                                                "type": "action",
+                                                "name": "vecMultiply",
+                                                "parameters": {
+                                                  "first": {
+                                                    "key": "manualWanderDirection"
+                                                  },
+                                                  "number": {
+                                                    "key": "<wanderFlySpeed>"
+                                                  }
+                                                },
+                                                "output": {
+                                                  "vector": "manualWanderVelocity"
+                                                }
+                                              },
+                                              {
+                                                "title": "fallbackManualWanderVelocity",
+                                                "type": "action",
+                                                "name": "vecMultiply",
+                                                "parameters": {
+                                                  "first": {
+                                                    "value": [
+                                                      1,
+                                                      0
+                                                    ]
+                                                  },
+                                                  "number": {
+                                                    "key": "<wanderFlySpeed>"
+                                                  }
+                                                },
+                                                "output": {
+                                                  "vector": "manualWanderVelocity"
+                                                }
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "title": "finalWanderVelocityWithPlayerCarry",
+                                            "type": "action",
+                                            "name": "vecAdd",
+                                            "parameters": {
+                                              "first": {
+                                                "key": "manualWanderVelocity"
+                                              },
+                                              "second": {
+                                                "key": "playerCarryVelocity"
+                                              }
+                                            },
+                                            "output": {
+                                              "vector": "followVelocity"
+                                            }
+                                          },
+                                          {
+                                            "title": "setFlyAnimation",
+                                            "type": "action",
+                                            "name": "setAnimationState",
+                                            "parameters": {
+                                              "type": {
+                                                "value": "body"
+                                              },
+                                              "state": {
+                                                "value": "fly"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "title": "setRelativeWanderVelocity",
+                                            "type": "action",
+                                            "name": "setVelocity",
+                                            "parameters": {
+                                              "velocity": {
+                                                "key": "followVelocity"
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "title": "stopIfNoTarget",
+                            "type": "composite",
+                            "name": "sequence",
+                            "parameters": {},
+                            "children": [
+                              {
+                                "title": "noTarget",
+                                "type": "decorator",
+                                "name": "inverter",
+                                "parameters": {},
+                                "child": {
+                                  "title": "targetExists",
+                                  "type": "action",
+                                  "name": "entityExists",
+                                  "parameters": {
+                                    "entity": {
+                                      "key": "playerTarget"
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "title": "zeroVector",
+                                "type": "action",
+                                "name": "vecMultiply",
+                                "parameters": {
+                                  "first": {
+                                    "value": [
+                                      0,
+                                      0
+                                    ]
+                                  },
+                                  "number": {
+                                    "value": 0
+                                  }
+                                },
+                                "output": {
+                                  "vector": "zeroVelocity"
+                                }
+                              },
+                              {
+                                "title": "setVelocityZero",
+                                "type": "action",
+                                "name": "setVelocity",
+                                "parameters": {
+                                  "velocity": {
+                                    "key": "zeroVelocity"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "title": "runner",
+                            "type": "action",
+                            "name": "runner",
+                            "parameters": {}
+                          }
+                        ]
+                      },
+                      {
+                        "title": "updateFacingWithFacingButton",
+                        "type": "decorator",
+                        "name": "optional",
+                        "parameters": {
+                          "shouldRun": {
+                            "key": "<FacingButton>"
+                          }
+                        },
+                        "child": {
+                          "title": "faceAttackOrMovementDirection",
+                          "type": "composite",
+                          "name": "selector",
+                          "parameters": {},
+                          "children": [
+                            {
+                              "title": "faceAttackTargetIfAny",
+                              "type": "composite",
+                              "name": "sequence",
+                              "parameters": {},
+                              "children": [
+                                {
+                                  "title": "attackTargetExists",
+                                  "type": "action",
+                                  "name": "entityExists",
+                                  "parameters": {
+                                    "entity": {
+                                      "key": "attackTarget"
+                                    }
+                                  }
+                                },
+                                {
+                                  "title": "attackTargetDirection",
+                                  "type": "action",
+                                  "name": "entityDirection",
+                                  "parameters": {
+                                    "entity": {
+                                      "key": "self"
+                                    },
+                                    "target": {
+                                      "key": "attackTarget"
+                                    }
+                                  },
+                                  "output": {
+                                    "xDirection": "facingDirection"
+                                  }
+                                },
+                                {
+                                  "title": "resetFacing",
+                                  "type": "action",
+                                  "name": "resetTransformationGroup",
+                                  "parameters": {
+                                    "transformationGroup": {
+                                      "value": "facing"
+                                    }
+                                  }
+                                },
+                                {
+                                  "title": "unusedAttackFacingInvertKeptForMovementCompatibility",
+                                  "type": "action",
+                                  "name": "multiply",
+                                  "parameters": {
+                                    "number": {
+                                      "key": "facingDirection"
+                                    },
+                                    "factor": {
+                                      "value": -1
+                                    }
+                                  },
+                                  "output": {
+                                    "result": "invertedFacingDirection"
+                                  }
+                                },
+                                {
+                                  "title": "scaleFacing",
+                                  "type": "action",
+                                  "name": "scaleTransformationGroup",
+                                  "parameters": {
+                                    "scale": {
+                                      "value": [
+                                        "facingDirection",
+                                        1
+                                      ]
+                                    },
+                                    "transformationGroup": {
+                                      "value": "facing"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "title": "faceAwayFromPlayerWhenFreeWander",
+                              "type": "composite",
+                              "name": "sequence",
+                              "parameters": {},
+                              "children": [
+                                {
+                                  "title": "wanderFaceAwayEnabled",
+                                  "type": "decorator",
+                                  "name": "optional",
+                                  "parameters": {
+                                    "shouldRun": {
+                                      "key": "<WanderFaceAwayFromPlayerButton>"
+                                    }
+                                  },
+                                  "child": {
+                                    "title": "selfExists",
+                                    "type": "action",
+                                    "name": "entityExists",
+                                    "parameters": {
+                                      "entity": {
+                                        "key": "self"
+                                      }
+                                    }
+                                  }
+                                },
+                                {
+                                  "title": "positionIsNotFixed",
+                                  "type": "decorator",
+                                  "name": "inverter",
+                                  "parameters": {},
+                                  "child": {
+                                    "title": "positionFixedIsTrue",
+                                    "type": "decorator",
+                                    "name": "optional",
+                                    "parameters": {
+                                      "shouldRun": {
+                                        "key": "<PositionFixedButton>"
+                                      }
+                                    },
+                                    "child": {
+                                      "title": "selfExistsWhenPositionFixed",
+                                      "type": "action",
+                                      "name": "entityExists",
+                                      "parameters": {
+                                        "entity": {
+                                          "key": "self"
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                {
+                                  "title": "noAttackTarget",
+                                  "type": "decorator",
+                                  "name": "inverter",
+                                  "parameters": {},
+                                  "child": {
+                                    "title": "attackTargetExists",
+                                    "type": "action",
+                                    "name": "entityExists",
+                                    "parameters": {
+                                      "entity": {
+                                        "key": "attackTarget"
+                                      }
+                                    }
+                                  }
+                                },
+                                {
+                                  "title": "playerTargetExists",
+                                  "type": "action",
+                                  "name": "entityExists",
+                                  "parameters": {
+                                    "entity": {
+                                      "key": "playerTarget"
+                                    }
+                                  }
+                                },
+                                {
+                                  "title": "playerPositionForAwayFacing",
+                                  "type": "action",
+                                  "name": "entityPosition",
+                                  "parameters": {
+                                    "entity": {
+                                      "key": "playerTarget"
+                                    }
+                                  },
+                                  "output": {
+                                    "position": "awayFacingPlayerPosition"
+                                  }
+                                },
+                                {
+                                  "title": "selfPositionForAwayFacing",
+                                  "type": "action",
+                                  "name": "offsetPosition",
+                                  "parameters": {
+                                    "position": {
+                                      "key": "self"
+                                    },
+                                    "offset": {
+                                      "value": [
+                                        0,
+                                        0
+                                      ]
+                                    }
+                                  },
+                                  "output": {
+                                    "position": "awayFacingSelfPosition"
+                                  }
+                                },
+                                {
+                                  "title": "playerToSelfAwayVector",
+                                  "type": "action",
+                                  "name": "distance",
+                                  "parameters": {
+                                    "from": {
+                                      "key": "awayFacingPlayerPosition"
+                                    },
+                                    "to": {
+                                      "key": "awayFacingSelfPosition"
+                                    }
+                                  },
+                                  "output": {
+                                    "magnitude": "awayFacingDistance",
+                                    "vector": "awayFacingVector"
+                                  }
+                                },
+                                {
+                                  "title": "awayFacingDistanceCheck",
+                                  "type": "action",
+                                  "name": "greaterThan",
+                                  "parameters": {
+                                    "first": {
+                                      "key": "awayFacingDistance"
+                                    },
+                                    "second": {
+                                      "key": "<wanderFaceAwayMinDistance>"
+                                    }
+                                  }
+                                },
+                                {
+                                  "title": "awayFacingAngle",
+                                  "type": "action",
+                                  "name": "vecAngle",
+                                  "parameters": {
+                                    "vector": {
+                                      "key": "awayFacingVector"
+                                    }
+                                  },
+                                  "output": {
+                                    "angle": "awayFacingAngle"
+                                  }
+                                },
+                                {
+                                  "title": "chooseAwayFacingByAwayVector",
+                                  "type": "composite",
+                                  "name": "selector",
+                                  "parameters": {},
+                                  "children": [
+                                    {
+                                      "title": "awayVectorPointsRightFaceRight",
+                                      "type": "composite",
+                                      "name": "sequence",
+                                      "parameters": {},
+                                      "children": [
+                                        {
+                                          "title": "angleGreaterThanMinusHalfPi",
+                                          "type": "action",
+                                          "name": "greaterThan",
+                                          "parameters": {
+                                            "first": {
+                                              "key": "awayFacingAngle"
+                                            },
+                                            "second": {
+                                              "value": -1.5707963267948966
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "title": "angleLessThanHalfPi",
+                                          "type": "decorator",
+                                          "name": "inverter",
+                                          "parameters": {},
+                                          "child": {
+                                            "title": "angleGreaterThanHalfPi",
+                                            "type": "action",
+                                            "name": "greaterThan",
+                                            "parameters": {
+                                              "first": {
+                                                "key": "awayFacingAngle"
+                                              },
+                                              "second": {
+                                                "value": 1.5707963267948966
+                                              }
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "title": "resetFacingAwayRight",
+                                          "type": "action",
+                                          "name": "resetTransformationGroup",
+                                          "parameters": {
+                                            "transformationGroup": {
+                                              "value": "facing"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "title": "scaleFacingAwayRight",
+                                          "type": "action",
+                                          "name": "scaleTransformationGroup",
+                                          "parameters": {
+                                            "scale": {
+                                              "value": [
+                                                -1,
+                                                1
+                                              ]
+                                            },
+                                            "transformationGroup": {
+                                              "value": "facing"
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "title": "awayVectorPointsLeftFaceLeft",
+                                      "type": "composite",
+                                      "name": "sequence",
+                                      "parameters": {},
+                                      "children": [
+                                        {
+                                          "title": "resetFacingAwayLeft",
+                                          "type": "action",
+                                          "name": "resetTransformationGroup",
+                                          "parameters": {
+                                            "transformationGroup": {
+                                              "value": "facing"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "title": "scaleFacingAwayLeft",
+                                          "type": "action",
+                                          "name": "scaleTransformationGroup",
+                                          "parameters": {
+                                            "scale": {
+                                              "value": [
+                                                1,
+                                                1
+                                              ]
+                                            },
+                                            "transformationGroup": {
+                                              "value": "facing"
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "title": "faceMovementVector",
+                              "type": "composite",
+                              "name": "sequence",
+                              "parameters": {},
+                              "children": [
+                                {
+                                  "title": "hasMeaningfulMovement",
+                                  "type": "action",
+                                  "name": "greaterThan",
+                                  "parameters": {
+                                    "first": {
+                                      "key": "desiredDistance"
+                                    },
+                                    "second": {
+                                      "key": "<moveDeadzone>"
+                                    }
+                                  }
+                                },
+                                {
+                                  "title": "movementAngle",
+                                  "type": "action",
+                                  "name": "vecAngle",
+                                  "parameters": {
+                                    "vector": {
+                                      "key": "desiredMoveVector"
+                                    }
+                                  },
+                                  "output": {
+                                    "angle": "movementFacingAngle"
+                                  }
+                                },
+                                {
+                                  "title": "pickFacingDirection",
+                                  "type": "composite",
+                                  "name": "selector",
+                                  "parameters": {},
+                                  "children": [
+                                    {
+                                      "title": "faceRight",
+                                      "type": "composite",
+                                      "name": "sequence",
+                                      "parameters": {},
+                                      "children": [
+                                        {
+                                          "title": "angleGreaterThanMinusHalfPi",
+                                          "type": "action",
+                                          "name": "greaterThan",
+                                          "parameters": {
+                                            "first": {
+                                              "key": "movementFacingAngle"
+                                            },
+                                            "second": {
+                                              "value": -1.5707963267948966
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "title": "angleLessThanHalfPi",
+                                          "type": "decorator",
+                                          "name": "inverter",
+                                          "parameters": {},
+                                          "child": {
+                                            "title": "angleGreaterThanHalfPi",
+                                            "type": "action",
+                                            "name": "greaterThan",
+                                            "parameters": {
+                                              "first": {
+                                                "key": "movementFacingAngle"
+                                              },
+                                              "second": {
+                                                "value": 1.5707963267948966
+                                              }
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "title": "setFacingRight",
+                                          "type": "action",
+                                          "name": "setNumber",
+                                          "parameters": {
+                                            "number": {
+                                              "value": 1
+                                            }
+                                          },
+                                          "output": {
+                                            "number": "facingDirection"
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "title": "faceLeft",
+                                      "type": "action",
+                                      "name": "setNumber",
+                                      "parameters": {
+                                        "number": {
+                                          "value": -1
+                                        }
+                                      },
+                                      "output": {
+                                        "number": "facingDirection"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "title": "resetFacing",
+                                  "type": "action",
+                                  "name": "resetTransformationGroup",
+                                  "parameters": {
+                                    "transformationGroup": {
+                                      "value": "facing"
+                                    }
+                                  }
+                                },
+                                {
+                                  "title": "invertFacingDirectionForSpriteDefault",
+                                  "type": "action",
+                                  "name": "multiply",
+                                  "parameters": {
+                                    "number": {
+                                      "key": "facingDirection"
+                                    },
+                                    "factor": {
+                                      "value": -1
+                                    }
+                                  },
+                                  "output": {
+                                    "result": "invertedFacingDirection"
+                                  }
+                                },
+                                {
+                                  "title": "scaleFacing",
+                                  "type": "action",
+                                  "name": "scaleTransformationGroup",
+                                  "parameters": {
+                                    "scale": {
+                                      "value": [
+                                        "invertedFacingDirection",
+                                        1
+                                      ]
+                                    },
+                                    "transformationGroup": {
+                                      "value": "facing"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "title": "updateAttackBodyRotation",
+                        "type": "decorator",
+                        "name": "optional",
+                        "parameters": {
+                          "shouldRun": {
+                            "key": "<FacingButton>"
+                          }
+                        },
+                        "child": {
+                          "title": "attackRotationMasterSequence",
+                          "type": "composite",
+                          "name": "sequence",
+                          "parameters": {},
+                          "children": [
+                            {
+                              "title": "resetBodyRotateBeforeOptionalAttackRotation",
+                              "type": "action",
+                              "name": "resetTransformationGroup",
+                              "parameters": {
+                                "transformationGroup": {
+                                  "value": "bodyRotate"
+                                }
+                              }
+                            },
+                            {
+                              "title": "optionalAttackRotationToEnemy",
+                              "type": "decorator",
+                              "name": "optional",
+                              "parameters": {
+                                "shouldRun": {
+                                  "key": "<AttackRotationButton>"
+                                }
+                              },
+                              "child": {
+                                "title": "attackBodyRotationSelector",
+                                "type": "composite",
+                                "name": "selector",
+                                "parameters": {},
+                                "children": [
+                                  {
+                                    "title": "rotateBodyToAttackTarget",
+                                    "type": "composite",
+                                    "name": "sequence",
+                                    "parameters": {},
+                                    "children": [
+                                      {
+                                        "title": "attackTargetExists",
+                                        "type": "action",
+                                        "name": "entityExists",
+                                        "parameters": {
+                                          "entity": {
+                                            "key": "attackTarget"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "title": "attackTargetInRange",
+                                        "type": "action",
+                                        "name": "entityInRange",
+                                        "parameters": {
+                                          "entity": {
+                                            "key": "attackTarget"
+                                          },
+                                          "position": {
+                                            "key": "self"
+                                          },
+                                          "range": {
+                                            "key": "<attackRange>"
+                                          },
+                                          "xRange": {
+                                            "value": null
+                                          },
+                                          "yRange": {
+                                            "value": null
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "title": "attackTargetPosition",
+                                        "type": "action",
+                                        "name": "entityPosition",
+                                        "parameters": {
+                                          "entity": {
+                                            "key": "attackTarget"
+                                          }
+                                        },
+                                        "output": {
+                                          "position": "attackTargetPositionForRotation"
+                                        }
+                                      },
+                                      {
+                                        "title": "attackTargetVector",
+                                        "type": "action",
+                                        "name": "distance",
+                                        "parameters": {
+                                          "from": {
+                                            "key": "self"
+                                          },
+                                          "to": {
+                                            "key": "attackTargetPositionForRotation"
+                                          }
+                                        },
+                                        "output": {
+                                          "magnitude": "attackRotationDistance",
+                                          "vector": "attackRotationVector"
+                                        }
+                                      },
+                                      {
+                                        "title": "attackRotationDistanceCheck",
+                                        "type": "action",
+                                        "name": "greaterThan",
+                                        "parameters": {
+                                          "first": {
+                                            "key": "attackRotationDistance"
+                                          },
+                                          "second": {
+                                            "key": "<attackRotationMinDistance>"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "title": "attackRotationAngle",
+                                        "type": "action",
+                                        "name": "vecAngle",
+                                        "parameters": {
+                                          "vector": {
+                                            "key": "attackRotationVector"
+                                          }
+                                        },
+                                        "output": {
+                                          "angle": "attackRotationAngle"
+                                        }
+                                      },
+                                      {
+                                        "title": "applyAttackRotationOffset",
+                                        "type": "action",
+                                        "name": "add",
+                                        "parameters": {
+                                          "number": {
+                                            "key": "attackRotationAngle"
+                                          },
+                                          "addend": {
+                                            "key": "<attackRotationOffset>"
+                                          }
+                                        },
+                                        "output": {
+                                          "result": "attackRotationAngle"
+                                        }
+                                      },
+                                      {
+                                        "title": "resetBodyRotateBeforeAttackRotate",
+                                        "type": "action",
+                                        "name": "resetTransformationGroup",
+                                        "parameters": {
+                                          "transformationGroup": {
+                                            "value": "bodyRotate"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "title": "rotateBodyToAttackTarget",
+                                        "type": "action",
+                                        "name": "rotateTransformationGroup",
+                                        "parameters": {
+                                          "angle": {
+                                            "key": "attackRotationAngle"
+                                          },
+                                          "transformationGroup": {
+                                            "value": "bodyRotate"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "title": "resetBodyRotateWhenNoAttackTarget",
+                                    "type": "action",
+                                    "name": "resetTransformationGroup",
+                                    "parameters": {
+                                      "transformationGroup": {
+                                        "value": "bodyRotate"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "title": "autoFireDoomshot",
+                        "type": "decorator",
+                        "name": "cooldown",
+                        "parameters": {
+                          "cooldown": {
+                            "key": "<attackCooldown>"
+                          },
+                          "onFail": {
+                            "value": true
+                          },
+                          "onSuccess": {
+                            "value": true
+                          }
+                        },
+                        "child": {
+                          "title": "fireModeSelector",
+                          "type": "composite",
+                          "name": "selector",
+                          "parameters": {},
+                          "children": [
+                            {
+                              "title": "fireSequenceMode",
+                              "type": "decorator",
+                              "name": "optional",
+                              "parameters": {
+                                "shouldRun": {
+                                  "key": "<FireSequenceButton>"
+                                }
+                              },
+                              "child": {
+                                "title": "firewindupFireFirewinddownSequence",
+                                "type": "composite",
+                                "name": "sequence",
+                                "parameters": {},
+                                "children": [
+                                  {
+                                    "title": "attackTargetExists",
+                                    "type": "action",
+                                    "name": "entityExists",
+                                    "parameters": {
+                                      "entity": {
+                                        "key": "attackTarget"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "title": "attackTargetInRange",
+                                    "type": "action",
+                                    "name": "entityInRange",
+                                    "parameters": {
+                                      "entity": {
+                                        "key": "attackTarget"
+                                      },
+                                      "position": {
+                                        "key": "self"
+                                      },
+                                      "range": {
+                                        "key": "<attackRange>"
+                                      },
+                                      "xRange": {
+                                        "value": null
+                                      },
+                                      "yRange": {
+                                        "value": null
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "title": "setFireWindupAnimation",
+                                    "type": "action",
+                                    "name": "setAnimationState",
+                                    "parameters": {
+                                      "type": {
+                                        "value": "<fireStateType>"
+                                      },
+                                      "state": {
+                                        "value": "<fireWindupState>"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "title": "fireWindupTimer",
+                                    "type": "action",
+                                    "name": "timer",
+                                    "parameters": {
+                                      "time": {
+                                        "key": "<fireWindupTime>"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "title": "setFireAnimation",
+                                    "type": "action",
+                                    "name": "setAnimationState",
+                                    "parameters": {
+                                      "type": {
+                                        "value": "<fireStateType>"
+                                      },
+                                      "state": {
+                                        "value": "<fireState>"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "title": "fireStateLoopForDuration",
+                                    "type": "decorator",
+                                    "name": "succeeder",
+                                    "parameters": {},
+                                    "child": {
+                                      "title": "fireStateLoopCore",
+                                      "type": "composite",
+                                      "name": "parallel",
+                                      "parameters": {
+                                        "fail": {
+                                          "value": 1
+                                        },
+                                        "success": {
+                                          "value": 1
+                                        }
+                                      },
+                                      "children": [
+                                        {
+                                          "title": "fireDurationTimer",
+                                          "type": "action",
+                                          "name": "timer",
+                                          "parameters": {
+                                            "time": {
+                                              "key": "<fireDuration>"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "title": "targetStillValidDuringFire",
+                                          "type": "composite",
+                                          "name": "parallel",
+                                          "parameters": {
+                                            "fail": {
+                                              "value": 1
+                                            },
+                                            "success": {
+                                              "value": -1
+                                            }
+                                          },
+                                          "children": [
+                                            {
+                                              "title": "attackTargetExists",
+                                              "type": "action",
+                                              "name": "entityExists",
+                                              "parameters": {
+                                                "entity": {
+                                                  "key": "attackTarget"
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "title": "attackTargetInRange",
+                                              "type": "action",
+                                              "name": "entityInRange",
+                                              "parameters": {
+                                                "entity": {
+                                                  "key": "attackTarget"
+                                                },
+                                                "position": {
+                                                  "key": "self"
+                                                },
+                                                "range": {
+                                                  "key": "<attackRange>"
+                                                },
+                                                "xRange": {
+                                                  "value": null
+                                                },
+                                                "yRange": {
+                                                  "value": null
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "title": "runner",
+                                              "type": "action",
+                                              "name": "runner",
+                                              "parameters": {}
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "title": "repeatDoomshotDuringFire",
+                                          "type": "decorator",
+                                          "name": "repeater",
+                                          "parameters": {
+                                            "maxLoops": {
+                                              "key": "<fireLoopMaxShots>"
+                                            },
+                                            "untilSuccess": {
+                                              "value": false
+                                            }
+                                          },
+                                          "child": {
+                                            "title": "oneShotThenInterval",
+                                            "type": "composite",
+                                            "name": "sequence",
+                                            "parameters": {},
+                                            "children": [
+                                              {
+                                                "title": "fireOneDoomshotDuringFire",
+                                                "type": "composite",
+                                                "name": "sequence",
+                                                "parameters": {},
+                                                "children": [
+                                                  {
+                                                    "title": "attackTargetExists",
+                                                    "type": "action",
+                                                    "name": "entityExists",
+                                                    "parameters": {
+                                                      "entity": {
+                                                        "key": "attackTarget"
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "title": "attackTargetInRange",
+                                                    "type": "action",
+                                                    "name": "entityInRange",
+                                                    "parameters": {
+                                                      "entity": {
+                                                        "key": "attackTarget"
+                                                      },
+                                                      "position": {
+                                                        "key": "self"
+                                                      },
+                                                      "range": {
+                                                        "key": "<attackRange>"
+                                                      },
+                                                      "xRange": {
+                                                        "value": null
+                                                      },
+                                                      "yRange": {
+                                                        "value": null
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "title": "attackTargetPosition",
+                                                    "type": "action",
+                                                    "name": "entityPosition",
+                                                    "parameters": {
+                                                      "entity": {
+                                                        "key": "attackTarget"
+                                                      }
+                                                    },
+                                                    "output": {
+                                                      "position": "attackTargetPosition"
+                                                    }
+                                                  },
+                                                  {
+                                                    "title": "sourcePosition",
+                                                    "type": "action",
+                                                    "name": "offsetPosition",
+                                                    "parameters": {
+                                                      "position": {
+                                                        "key": "self"
+                                                      },
+                                                      "offset": {
+                                                        "value": [
+                                                          0,
+                                                          0
+                                                        ]
+                                                      }
+                                                    },
+                                                    "output": {
+                                                      "position": "sourcePosition"
+                                                    }
+                                                  },
+                                                  {
+                                                    "title": "aimVectorToAttackTarget",
+                                                    "type": "action",
+                                                    "name": "distance",
+                                                    "parameters": {
+                                                      "from": {
+                                                        "key": "sourcePosition"
+                                                      },
+                                                      "to": {
+                                                        "key": "attackTargetPosition"
+                                                      }
+                                                    },
+                                                    "output": {
+                                                      "vector": "doomshotAimVector"
+                                                    }
+                                                  },
+                                                  {
+                                                    "title": "spawnDoomshot",
+                                                    "type": "action",
+                                                    "name": "spawnProjectile",
+                                                    "parameters": {
+                                                      "projectileType": {
+                                                        "key": "<attackProjectileType>"
+                                                      },
+                                                      "projectileConfig": {
+                                                        "key": "<attackProjectileParameters>"
+                                                      },
+                                                      "position": {
+                                                        "key": "sourcePosition"
+                                                      },
+                                                      "offset": {
+                                                        "value": [
+                                                          0,
+                                                          0
+                                                        ]
+                                                      },
+                                                      "aimVector": {
+                                                        "key": "doomshotAimVector"
+                                                      },
+                                                      "angle": {
+                                                        "value": 0
+                                                      },
+                                                      "sourceEntity": {
+                                                        "key": "self"
+                                                      },
+                                                      "trackSource": {
+                                                        "value": false
+                                                      },
+                                                      "damageRepeatGroup": {
+                                                        "value": "jsonFollowerDoomshot"
+                                                      },
+                                                      "uniqueRepeatGroup": {
+                                                        "value": true
+                                                      },
+                                                      "scalePower": {
+                                                        "value": true
+                                                      }
+                                                    }
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "title": "projectileIntervalTimer",
+                                                "type": "action",
+                                                "name": "timer",
+                                                "parameters": {
+                                                  "time": {
+                                                    "key": "<projectileInterval>"
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "title": "setFireWinddownAnimation",
+                                    "type": "action",
+                                    "name": "setAnimationState",
+                                    "parameters": {
+                                      "type": {
+                                        "value": "<fireStateType>"
+                                      },
+                                      "state": {
+                                        "value": "<fireWinddownState>"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "title": "fireWinddownTimer",
+                                    "type": "action",
+                                    "name": "timer",
+                                    "parameters": {
+                                      "time": {
+                                        "key": "<fireWinddownTime>"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "title": "clearAttackAnimationAfterWinddown",
+                                    "type": "action",
+                                    "name": "setAnimationState",
+                                    "parameters": {
+                                      "type": {
+                                        "value": "<fireStateType>"
+                                      },
+                                      "state": {
+                                        "value": "<fireNoneState>"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "title": "directFireOnlyMode",
+                              "type": "composite",
+                              "name": "sequence",
+                              "parameters": {},
+                              "children": [
+                                {
+                                  "title": "attackTargetExists",
+                                  "type": "action",
+                                  "name": "entityExists",
+                                  "parameters": {
+                                    "entity": {
+                                      "key": "attackTarget"
+                                    }
+                                  }
+                                },
+                                {
+                                  "title": "attackTargetInRange",
+                                  "type": "action",
+                                  "name": "entityInRange",
+                                  "parameters": {
+                                    "entity": {
+                                      "key": "attackTarget"
+                                    },
+                                    "position": {
+                                      "key": "self"
+                                    },
+                                    "range": {
+                                      "key": "<attackRange>"
+                                    },
+                                    "xRange": {
+                                      "value": null
+                                    },
+                                    "yRange": {
+                                      "value": null
+                                    }
+                                  }
+                                },
+                                {
+                                  "title": "setFireAnimation",
+                                  "type": "action",
+                                  "name": "setAnimationState",
+                                  "parameters": {
+                                    "type": {
+                                      "value": "<fireStateType>"
+                                    },
+                                    "state": {
+                                      "value": "<fireState>"
+                                    }
+                                  }
+                                },
+                                {
+                                  "title": "fireOneDoomshotDirectMode",
+                                  "type": "composite",
+                                  "name": "sequence",
+                                  "parameters": {},
+                                  "children": [
+                                    {
+                                      "title": "attackTargetExists",
+                                      "type": "action",
+                                      "name": "entityExists",
+                                      "parameters": {
+                                        "entity": {
+                                          "key": "attackTarget"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "title": "attackTargetInRange",
+                                      "type": "action",
+                                      "name": "entityInRange",
+                                      "parameters": {
+                                        "entity": {
+                                          "key": "attackTarget"
+                                        },
+                                        "position": {
+                                          "key": "self"
+                                        },
+                                        "range": {
+                                          "key": "<attackRange>"
+                                        },
+                                        "xRange": {
+                                          "value": null
+                                        },
+                                        "yRange": {
+                                          "value": null
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "title": "attackTargetPosition",
+                                      "type": "action",
+                                      "name": "entityPosition",
+                                      "parameters": {
+                                        "entity": {
+                                          "key": "attackTarget"
+                                        }
+                                      },
+                                      "output": {
+                                        "position": "attackTargetPosition"
+                                      }
+                                    },
+                                    {
+                                      "title": "sourcePosition",
+                                      "type": "action",
+                                      "name": "offsetPosition",
+                                      "parameters": {
+                                        "position": {
+                                          "key": "self"
+                                        },
+                                        "offset": {
+                                          "value": [
+                                            0,
+                                            0
+                                          ]
+                                        }
+                                      },
+                                      "output": {
+                                        "position": "sourcePosition"
+                                      }
+                                    },
+                                    {
+                                      "title": "aimVectorToAttackTarget",
+                                      "type": "action",
+                                      "name": "distance",
+                                      "parameters": {
+                                        "from": {
+                                          "key": "sourcePosition"
+                                        },
+                                        "to": {
+                                          "key": "attackTargetPosition"
+                                        }
+                                      },
+                                      "output": {
+                                        "vector": "doomshotAimVector"
+                                      }
+                                    },
+                                    {
+                                      "title": "spawnDoomshot",
+                                      "type": "action",
+                                      "name": "spawnProjectile",
+                                      "parameters": {
+                                        "projectileType": {
+                                          "key": "<attackProjectileType>"
+                                        },
+                                        "projectileConfig": {
+                                          "key": "<attackProjectileParameters>"
+                                        },
+                                        "position": {
+                                          "key": "sourcePosition"
+                                        },
+                                        "offset": {
+                                          "value": [
+                                            0,
+                                            0
+                                          ]
+                                        },
+                                        "aimVector": {
+                                          "key": "doomshotAimVector"
+                                        },
+                                        "angle": {
+                                          "value": 0
+                                        },
+                                        "sourceEntity": {
+                                          "key": "self"
+                                        },
+                                        "trackSource": {
+                                          "value": false
+                                        },
+                                        "damageRepeatGroup": {
+                                          "value": "jsonFollowerDoomshot"
+                                        },
+                                        "uniqueRepeatGroup": {
+                                          "value": true
+                                        },
+                                        "scalePower": {
+                                          "value": true
+                                        }
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "title": "projectileIntervalTimer",
+                                  "type": "action",
+                                  "name": "timer",
+                                  "parameters": {
+                                    "time": {
+                                      "key": "<projectileInterval>"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "title": "cleanupAttackAnimationIfNoTarget",
+                              "type": "composite",
+                              "name": "sequence",
+                              "parameters": {},
+                              "children": [
+                                {
+                                  "title": "noAttackTarget",
+                                  "type": "decorator",
+                                  "name": "inverter",
+                                  "parameters": {},
+                                  "child": {
+                                    "title": "attackTargetExists",
+                                    "type": "action",
+                                    "name": "entityExists",
+                                    "parameters": {
+                                      "entity": {
+                                        "key": "attackTarget"
+                                      }
+                                    }
+                                  }
+                                },
+                                {
+                                  "title": "clearAttackAnimationNoTarget",
+                                  "type": "action",
+                                  "name": "setAnimationState",
+                                  "parameters": {
+                                    "type": {
+                                      "value": "<fireStateType>"
+                                    },
+                                    "state": {
+                                      "value": "<fireNoneState>"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "movementSettings": {
+        "collisionEnabled": false
+      }
+    }
+  },
+  "altAbilityType": "piercingshot",
+
+  "altAbility": {
+    "name": "Dismiss Minions",
+    "projectileType": "bullet-1",
+    "projectileCount": 1,
+    "cooldownTime": 0.25,
+    "fireTime": 0.25,
+    "baseDps": 0.0,
+    "energyUsage": 0,
+    "inaccuracy": 0,
+    "boostForce": 0,
+    "projectileParameters": {
+      "processing": "?crop=0;0;0;0",
+      "timeToLive": 0,
+      "power": 0,
+      "piercing": true,
+      "damageType": "NoDamage",
+      "actionOnCollide": [],
+      "actionOnReap": [
+        {
+          "action": "spawnmonster",
+          "type": "punchy",
+          "offset": [
+            0,
+            0
+          ],
+          "arguments": {
+            "aggressive": false,
+            "damageTeamType": "passive",
+            "description": "temporary clear helper for minions",
+            "scripts": [
+              "/monsters/monster.lua"
+            ],
+            "behaviorUpdateDelta": 1,
+            "initialScriptDelta": 1,
+            "scale": 0,
+            "animationCustom": {
+              "sounds": {
+                "deathPuff": []
+              }
+            },
+            "movementSettings": {
+              "gravityEnabled": false,
+              "collisionEnabled": false,
+              "collisionPoly": [
+                [
+                  0,
+                  0
+                ]
+              ]
+            },
+            "statusSettings": {
+              "stats": {
+                "maxHealth": {
+                  "baseValue": 1
+                },
+                "healthRegen": {
+                  "baseValue": -1
+                }
+              }
+            },
+            "behavior": {
+              "name": "clearJsonFollowersHelper",
+              "scripts": [
+                "/scripts/behavior.lua",
+                "/scripts/behavior/bdata.lua",
+                "/scripts/actions/entity.lua",
+                "/scripts/actions/world.lua",
+                "/scripts/actions/status.lua",
+                "/scripts/actions/query.lua",
+                "/scripts/actions/position.lua",
+                "/scripts/actions/notification.lua"
+              ],
+              "parameters": {
+                "clearRange": 80,
+                "clearNotification": "clearJsonFollower",
+                "clearEntityTypes": [
+                  "monster"
+                ]
+              },
+              "root": {
+                "title": "sequence",
+                "type": "composite",
+                "name": "sequence",
+                "parameters": {},
+                "children": [
+                  {
+                    "title": "broadcastClearJsonFollower",
+                    "type": "action",
+                    "name": "broadcastNotification",
+                    "parameters": {
+                      "entityTypes": {
+                        "key": "<clearEntityTypes>"
+                      },
+                      "position": {
+                        "key": "self"
+                      },
+                      "range": {
+                        "key": "<clearRange>"
+                      },
+                      "target": {
+                        "key": "self"
+                      },
+                      "type": {
+                        "key": "<clearNotification>"
+                      }
+                    }
+                  },
+                  {
+                    "title": "selfDestructClearHelper",
+                    "type": "action",
+                    "name": "setResource",
+                    "parameters": {
+                      "resource": {
+                        "value": "health"
+                      },
+                      "amount": {
+                        "value": 0
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "movementSettings": {
+        "collisionEnabled": false
+      },
+      "knockback": 0,
+      "speed": 0
+    },
+    
+  "animationParts" : { },
+  "animationCustom" : {
+    "particleEmitters" : {},
+    "sounds" : {
+      "altFire" : [ "/sfx/gun/shotgun1.ogg" ]
+    }
+  }
+  }
+}'
